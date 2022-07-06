@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(230, 230, 230);
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.card h2{
+    margin-bottom: 5px;
+}
+a:active {
+    color:  grey;
+}
+.anton {
+    width: 220px;
+    height: 270px;
+    border-radius: 16px;
+}
+.top {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .top {
+        text-align: center;
+        display: block;
+    }
+}
+.top-text {
+    margin-left: 40px;
+}
+.top p {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(56, 54, 54);
+    margin: 0;
+}
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 20px;
+}
+.card {
+    background-color: red;
+    border-radius: 10%;
+    margin-bottom: 20 px;
+    padding: 15px 20px;
+}
+.bg-red {
+    background-color: #fccbcb;
+}
+.bg-green {
+    background-color: #cfdafd;
+}
+
+.list li {
+    color: rgb(41, 33, 41);
+
+}
+.list {
+    padding: 0 20px;
+}
+.table {
+    width: 100%;
+}
+/* .social {
+    margin: 20px;
+    border: 0ch;
+    padding: 15px;
+} */
+
+.table td:nth-child(2) {
+    color: #86898f;
+
+}
+.contact h2 {
+    text-align: center;
+}
+
+.form-froup label {
+    color: #86898f;
+    font-size: 14px;
+    display: block;
+}
+
+.form-froup input {
+    width:90%;
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    height:15px;
+    outline: none;
+}
+.form-froup textarea {
+    width:100%;
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    height:150px;
+    outline: none;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.row > .form-froup {
+    width: 50%;
+    margin-right: 20 px;
+
+}
+
+.buttton {
+    padding: 15px 20px;
+    font-family: inherit;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
